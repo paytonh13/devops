@@ -1,0 +1,15 @@
+const calculateFactorial = require('./factorial');
+
+describe('Factorial Function Tests', () => {
+    test('Returns "undefined" for negative numbers', () => {
+        expect(calculateFactorial(-5)).toBe("undefined");
+    });
+
+    test('Returns "1" for 0', () => {
+        expect(calculateFactorial(0)).toBe("1");
+    });
+
+    test('Returns correct factorial for positive numbers', () => {
+        expect(calculateFactorial(5)).toBe("120");
+    });
+});
