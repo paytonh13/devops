@@ -9,6 +9,7 @@
   "author": "Payton Hutsell",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^29.7.0",
     "mocha": "^8.2.1"
   }
 }
